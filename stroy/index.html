@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Борт 47: стройматериалы по Ленобласти день в день</title>
+<meta name="description" content="Закажите до 12:00, привезём сегодня. Свои манипуляторы и длинномеры, база во Всеволожске, минимальный заказ одна паллета. Нал, перевод, безнал с НДС.">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Борт 47: закажите до 12:00, привезём сегодня">
+<meta property="og:description" content="Стройматериалы по Ленобласти своими машинами. Манипулятор до 18 м, длинномер 13,6 м, от одной паллеты.">
+<meta property="og:locale" content="ru_RU">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%231650A8'/%3E%3Ctext x='32' y='46' font-family='Arial Narrow,Arial,sans-serif' font-weight='700' font-size='38' text-anchor='middle' fill='%23fff'%3E47%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;500;600;700;800&family=Sofia+Sans+Condensed:wght@500;600;700&family=Sofia+Sans+Extra+Condensed:wght@700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">К содержанию</a>
+
+<header class="top">
+  <div class="wrap top__in">
+    <a class="logo" href="#main" aria-label="Борт 47, на главную">
+      <span class="logo__word">Борт</span><span class="logo__code">47</span>
+    </a>
+    <p class="top__where">Стройматериалы по Ленобласти.<br>База во Всеволожске</p>
+    <a class="top__phone js-contact" data-kind="call" href="tel:+78120004747">+7 812 000-47-47</a>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- Первый экран -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap hero__grid">
+    <div class="hero__main">
+      <h1 id="hero-title" class="hero__title">Закажите до&nbsp;12:00, привезём сегодня</h1>
+
+      <p class="status" id="status" role="status">
+        <span class="status__now" id="status-now">Сейчас 10:42.</span>
+        <span id="status-text">Успеваете на сегодня: до отсечки 1 ч 18 мин.</span>
+      </p>
+
+      <dl class="facts">
+        <div class="fact">
+          <dt class="fact__num">8&nbsp;машин</dt>
+          <dd class="fact__txt">свои, не наёмные: 5&nbsp;манипуляторов и&nbsp;3&nbsp;длинномера до&nbsp;13,6&nbsp;м</dd>
+        </div>
+        <div class="fact">
+          <dt class="fact__num">1&nbsp;паллета</dt>
+          <dd class="fact__txt">минимальный заказ. Добирать до&nbsp;полной машины не&nbsp;нужно</dd>
+        </div>
+      </dl>
+    </div>
+
+    <aside class="call" aria-label="Связаться с диспетчером">
+      <p class="call__label">Диспетчер, каждый день с&nbsp;7:30 до&nbsp;20:00</p>
+      <a class="call__phone js-contact" data-kind="call" href="tel:+78120004747">+7 812 000-47-47</a>
+      <div class="call__btns">
+        <a class="btn btn--main js-contact" data-kind="call" href="tel:+78120004747">Позвонить</a>
+        <a class="btn btn--line js-contact" data-kind="tg" href="#zayavka">Telegram</a>
+        <a class="btn btn--line js-contact" data-kind="wa" href="#zayavka">WhatsApp</a>
+      </div>
+      <p class="call__hint">Пришлите в мессенджер фото сметы или накладной, посчитаем машину и рейс за 10 минут.</p>
+    </aside>
+  </div>
+</section>
+
+<!-- День -->
+<section class="sec day" id="den" aria-labelledby="day-title">
+  <div class="wrap">
+    <h2 id="day-title" class="h2">Как устроен наш день</h2>
+    <p class="lead">Сегодняшний рейс собирается до&nbsp;обеда. Всё, что заказано позже, едет утром.</p>
+    <ol class="day__list" id="day-list">
+      <li class="day__row" data-min="450"><time class="day__time">7:30</time><p>Диспетчер на&nbsp;связи: телефон, Telegram, WhatsApp.</p></li>
+      <li class="day__row" data-min="480"><time class="day__time">8:00</time><p>С&nbsp;базы уходят первые машины. Везут то, что заказали вчера после&nbsp;12:00.</p></li>
+      <li class="day__row" data-min="600"><time class="day__time">10:00</time><p>Отсечка для дальней зоны: Выборг, Луга, Приозерск, Кингисепп и&nbsp;всё, что дальше 80&nbsp;км.</p></li>
+      <li class="day__row day__row--key" data-min="720"><time class="day__time">12:00</time><p>Отсечка для остальных. Всё, что заказано до&nbsp;этой минуты, привезём сегодня.</p></li>
+      <li class="day__row" data-min="750"><time class="day__time">12:30</time><p>Машины грузятся. Диспетчер присылает окно доставки: два часа.</p></li>
+      <li class="day__row" data-min="780"><time class="day__time">13:00</time><p>Развоз. Водитель звонит за&nbsp;40&nbsp;минут, чтобы вы успели открыть ворота.</p></li>
+      <li class="day__row" data-min="1200"><time class="day__time">20:00</time><p>Последняя разгрузка. Позже только если договоримся с&nbsp;объектом заранее.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- Подбор машины -->
+<section class="sec pick" id="mashina" aria-labelledby="pick-title">
+  <div class="wrap">
+    <h2 id="pick-title" class="h2">Какая машина нужна под&nbsp;ваш груз</h2>
+    <p class="lead">Укажите вес, самый длинный предмет и&nbsp;куда везти. Все наши машины нарисованы ниже на&nbsp;одной линейке, в&nbsp;масштабе.</p>
+
+    <div class="pick__grid">
+      <form class="calc" id="calc" aria-label="Подбор машины" onsubmit="return false">
+        <fieldset class="calc__f">
+          <legend class="calc__lg">Быстро: что везёте</legend>
+          <div class="chips" id="presets">
+            <button type="button" class="chip" data-w="1.1" data-l="1.2" data-c="1">1 паллета газобетона</button>
+            <button type="button" class="chip" data-w="6.8" data-l="1.2" data-c="1">4 поддона кирпича</button>
+            <button type="button" class="chip" data-w="2" data-l="1.2" data-c="1">40 мешков цемента</button>
+            <button type="button" class="chip" data-w="3" data-l="11.7" data-c="0">3 т арматуры 11,7 м</button>
+            <button type="button" class="chip" data-w="4.5" data-l="6" data-c="1">9 кубов бруса 6 м</button>
+            <button type="button" class="chip" data-w="1.4" data-l="8" data-c="1">профлист 8 м</button>
+          </div>
+        </fieldset>
+
+        <div class="calc__row">
+          <label class="calc__lbl" for="w">Вес</label>
+          <output class="calc__val" id="w-out" for="w">2 т</output>
+          <input class="range" type="range" id="w" min="0.5" max="20" step="0.1" value="2" aria-describedby="w-hint">
+          <p class="calc__hint" id="w-hint">Паллета газобетона около 1,1 т, поддон кирпича около 1,7 т</p>
+        </div>
+
+        <div class="calc__row">
+          <label class="calc__lbl" for="l">Самый длинный предмет</label>
+          <output class="calc__val" id="l-out" for="l">1,2 м</output>
+          <input class="range" type="range" id="l" min="1" max="13.5" step="0.1" value="1.2" aria-describedby="l-hint">
+          <p class="calc__hint" id="l-hint">Паллета 1,2 м, брус 6 м, арматура 11,7 м</p>
+        </div>
+
+        <fieldset class="calc__f">
+          <legend class="calc__lbl">Разгрузка</legend>
+          <div class="seg">
+            <label class="seg__opt"><input type="radio" name="crane" value="1" checked><span>Краном, нашим</span></label>
+            <label class="seg__opt"><input type="radio" name="crane" value="0"><span>Сами или своим краном</span></label>
+          </div>
+        </fieldset>
+
+        <div class="calc__row calc__row--sel">
+          <label class="calc__lbl" for="to">Куда</label>
+          <div class="select">
+            <select id="to"></select>
+          </div>
+        </div>
+      </form>
+
+      <div class="res" aria-live="polite">
+        <p class="res__pre" id="r-pre">Поедет</p>
+        <p class="res__truck" id="r-truck">Манипулятор 5 т</p>
+        <p class="res__spec" id="r-spec">Кузов 6,2 м, стрела 3 т, вылет 10 м</p>
+        <p class="res__price"><span id="r-price">8 500 ₽</span> <span class="res__per" id="r-per">за рейс до Мурино</span></p>
+        <p class="res__when" id="r-when">Сегодня, если закажете до 12:00</p>
+        <p class="res__note" id="r-note" hidden></p>
+        <a class="btn btn--main res__btn" id="r-order" href="#zayavka">Заказать эту машину</a>
+        <p class="res__fine">Цена ориентировочная, в неё входит час разгрузки. Точную назовёт диспетчер, когда увидит адрес.</p>
+      </div>
+    </div>
+
+    <figure class="fleet" aria-labelledby="fleet-cap">
+      <figcaption id="fleet-cap" class="fleet__cap">Наш парк: длина кузова в&nbsp;метрах</figcaption>
+      <p class="fleet__load">Пунктир: ваш груз, <b id="cargo-l">1,2 м</b></p>
+      <div class="ruler" aria-hidden="true">
+        <span style="--m:0">0</span><span style="--m:2">2</span><span style="--m:4">4</span><span style="--m:6">6</span><span style="--m:8">8</span><span style="--m:10">10</span><span style="--m:12">12</span><span style="--m:14">14 м</span>
+      </div>
+      <div class="fleet__rows" id="fleet">
+        <div class="truck" data-id="m5" style="--len:6.2">
+          <div class="truck__bar"><span class="truck__bed"></span></div>
+          <p class="truck__name">Манипулятор 5&nbsp;т <span class="truck__n">2 машины</span></p>
+          <p class="truck__spec">кузов 6,2&nbsp;м, стрела 3&nbsp;т, вылет 10&nbsp;м</p>
+          <p class="truck__why"></p>
+        </div>
+        <div class="truck" data-id="m10" style="--len:7.8">
+          <div class="truck__bar"><span class="truck__bed"></span></div>
+          <p class="truck__name">КамАЗ-манипулятор 10&nbsp;т <span class="truck__n">3 машины</span></p>
+          <p class="truck__spec">кузов 7,8&nbsp;м, стрела 7&nbsp;т, вылет 18&nbsp;м</p>
+          <p class="truck__why"></p>
+        </div>
+        <div class="truck" data-id="dm" style="--len:12">
+          <div class="truck__bar"><span class="truck__bed"></span></div>
+          <p class="truck__name">Длинномер с&nbsp;краном 12&nbsp;т <span class="truck__n">1 машина</span></p>
+          <p class="truck__spec">площадка 12&nbsp;м, стрела 5&nbsp;т, вылет 16&nbsp;м</p>
+          <p class="truck__why"></p>
+        </div>
+        <div class="truck" data-id="d20" style="--len:13.6">
+          <div class="truck__bar"><span class="truck__bed"></span></div>
+          <p class="truck__name">Длинномер 20&nbsp;т <span class="truck__n">2 машины</span></p>
+          <p class="truck__spec">полуприцеп 13,6&nbsp;м, без крана, разгрузка сбоку</p>
+          <p class="truck__why"></p>
+        </div>
+      </div>
+    </figure>
+  </div>
+</section>
+
+<!-- Разгрузка -->
+<section class="sec crane" id="razgruzka" aria-labelledby="crane-title">
+  <div class="wrap crane__grid">
+    <div>
+      <h2 id="crane-title" class="h2">Разгрузим краном через забор и&nbsp;на&nbsp;перекрытие</h2>
+      <p class="lead">Грузчики не&nbsp;нужны: водитель сам стропит и&nbsp;работает краном.</p>
+    </div>
+
+    <figure class="reach">
+      <svg viewBox="0 0 420 200" role="img" aria-labelledby="reach-t reach-d">
+        <title id="reach-t">Вылет стрелы КамАЗ-манипулятора</title>
+        <desc id="reach-d">На 11 метров от крана стрела подаёт 1,1 тонны, то есть паллету газобетона. На 18 метров 600 килограммов.</desc>
+        <line class="r-ground" x1="0" y1="160" x2="420" y2="160"/>
+        <!-- машина -->
+        <rect class="r-truck" x="14" y="118" width="30" height="34" rx="3"/>
+        <rect class="r-truck" x="46" y="132" width="124" height="14"/>
+        <circle class="r-wheel" cx="30" cy="154" r="7"/><circle class="r-wheel" cx="130" cy="154" r="7"/><circle class="r-wheel" cx="150" cy="154" r="7"/>
+        <rect class="r-truck" x="48" y="104" width="8" height="28"/>
+        <!-- стрела -->
+        <line class="r-boom" x1="52" y1="106" x2="340" y2="46"/>
+        <line class="r-rope" x1="340" y1="46" x2="340" y2="98"/>
+        <rect class="r-load" x="328" y="98" width="24" height="18"/>
+        <!-- забор и дом -->
+        <line class="r-fence" x1="210" y1="160" x2="210" y2="128"/>
+        <line class="r-fence" x1="222" y1="160" x2="222" y2="128"/>
+        <line class="r-fence" x1="198" y1="160" x2="198" y2="128"/>
+        <line class="r-fence" x1="192" y1="134" x2="228" y2="134"/>
+        <rect class="r-house" x="300" y="116" width="92" height="44"/>
+        <!-- размеры -->
+        <line class="r-dim" x1="52" y1="178" x2="228" y2="178"/>
+        <line class="r-dim" x1="52" y1="194" x2="340" y2="194"/>
+        <line class="r-tick" x1="52" y1="170" x2="52" y2="198"/>
+        <line class="r-tick" x1="228" y1="172" x2="228" y2="184"/>
+        <line class="r-tick" x1="340" y1="188" x2="340" y2="198"/>
+        <text class="r-txt" x="232" y="182">11 м</text>
+        <text class="r-txt" x="344" y="198">18 м</text>
+      </svg>
+      <figcaption class="reach__cap">
+        <span><b>11&nbsp;м</b> от крана: 1,1&nbsp;т, паллета газобетона</span>
+        <span><b>18&nbsp;м</b> от крана: до&nbsp;600&nbsp;кг, мешки, брус, профлист</span>
+      </figcaption>
+    </figure>
+
+    <dl class="terms">
+      <div><dt>Час разгрузки</dt><dd>входит в&nbsp;цену рейса. Дальше 1&nbsp;000&nbsp;₽ за&nbsp;каждые полчаса.</dd></div>
+      <div><dt>Площадка</dt><dd>3 на&nbsp;9&nbsp;м под опоры крана и&nbsp;проезд от&nbsp;3,5&nbsp;м. Сомневаетесь, пришлите фото въезда.</dd></div>
+      <div><dt>Провода</dt><dd>под ЛЭП краном не&nbsp;работаем. Если линия над участком, скажите заранее, подберём точку.</dd></div>
+      <div><dt>Поддоны</dt><dd>залог 350&nbsp;₽ за&nbsp;штуку, вернём деньги, когда заберём поддоны следующим рейсом.</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- Паллета -->
+<section class="sec pal" id="paleta" aria-labelledby="pal-title">
+  <div class="wrap pal__grid">
+    <div>
+      <h2 id="pal-title" class="h2">Везём от&nbsp;одной паллеты</h2>
+      <p class="lead">Докупить блоков на&nbsp;фронтон или мешков на&nbsp;стяжку можно без полной машины. Если по&nbsp;пути есть другие заказы, паллета едет попутным рейсом от&nbsp;3&nbsp;500&nbsp;₽.</p>
+      <p class="pal__also">Материалы с&nbsp;нашей базы или ваш оплаченный груз с&nbsp;любого склада и&nbsp;завода области: заберём по&nbsp;доверенности.</p>
+    </div>
+    <table class="tbl">
+      <caption class="vh">Что помещается на одну паллету и сколько она весит</caption>
+      <thead><tr><th scope="col">Материал</th><th scope="col">Одна паллета</th><th scope="col" class="num">Вес</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Газобетон D500, 600×300×200</th><td>1,8&nbsp;м³, 50&nbsp;блоков</td><td class="num">1,1&nbsp;т</td></tr>
+        <tr><th scope="row">Кирпич рядовой полнотелый</th><td>480&nbsp;штук</td><td class="num">1,7&nbsp;т</td></tr>
+        <tr><th scope="row">Цемент М500, мешок 50&nbsp;кг</th><td>40&nbsp;мешков</td><td class="num">2&nbsp;т</td></tr>
+        <tr><th scope="row">Штукатурка гипсовая, 30&nbsp;кг</th><td>40&nbsp;мешков</td><td class="num">1,2&nbsp;т</td></tr>
+        <tr><th scope="row">Пескобетон М300, 40&nbsp;кг</th><td>35&nbsp;мешков</td><td class="num">1,4&nbsp;т</td></tr>
+        <tr><th scope="row">Арматура А500С, 12&nbsp;мм, 11,7&nbsp;м</th><td>пачка, 60&nbsp;прутков</td><td class="num">0,6&nbsp;т</td></tr>
+        <tr><th scope="row">Брус 150×150×6000</th><td>пачка, 1&nbsp;м³</td><td class="num">0,5&nbsp;т</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- Зона -->
+<section class="sec zone" id="zona" aria-labelledby="zone-title">
+  <div class="wrap">
+    <h2 id="zone-title" class="h2">Куда возим</h2>
+    <p class="lead">Вся Ленобласть за&nbsp;КАДом. Внутрь КАД не&nbsp;заезжаем: грузовикам там нужен пропуск, а&nbsp;наш парк работает на&nbsp;области. Километры от&nbsp;базы во&nbsp;Всеволожске.</p>
+
+    <div class="signs">
+      <section class="sign" aria-labelledby="z1">
+        <header class="sign__head">
+          <h3 id="z1" class="sign__title">До 40&nbsp;км</h3>
+          <p class="sign__rule">Сегодня, если заказ до&nbsp;12:00. Рейс от&nbsp;8&nbsp;500&nbsp;₽</p>
+        </header>
+        <ul class="sign__list">
+          <li><span>Колтуши</span><b>8</b></li>
+          <li><span>Янино</span><b>10</b></li>
+          <li><span>Кудрово</span><b>15</b></li>
+          <li><span>Мурино</span><b>17</b></li>
+          <li><span>Токсово</span><b>22</b></li>
+          <li><span>Сертолово</span><b>30</b></li>
+          <li><span>Кировск</span><b>35</b></li>
+          <li><span>Отрадное</span><b>38</b></li>
+          <li><span>Шлиссельбург</span><b>40</b></li>
+        </ul>
+      </section>
+      <section class="sign" aria-labelledby="z2">
+        <header class="sign__head">
+          <h3 id="z2" class="sign__title">40–80&nbsp;км</h3>
+          <p class="sign__rule">Сегодня, если заказ до&nbsp;12:00. Рейс от&nbsp;11&nbsp;500&nbsp;₽</p>
+        </header>
+        <ul class="sign__list">
+          <li><span>Колпино</span><b>42</b></li>
+          <li><span>Мга</span><b>45</b></li>
+          <li><span>Никольское</span><b>48</b></li>
+          <li><span>Сосново</span><b>62</b></li>
+          <li><span>Тосно</span><b>66</b></li>
+          <li><span>Гатчина</span><b>78</b></li>
+        </ul>
+      </section>
+      <section class="sign" aria-labelledby="z3">
+        <header class="sign__head">
+          <h3 id="z3" class="sign__title">80–150&nbsp;км</h3>
+          <p class="sign__rule">Сегодня, если заказ до&nbsp;10:00. Рейс от&nbsp;16&nbsp;000&nbsp;₽</p>
+        </header>
+        <ul class="sign__list">
+          <li><span>Зеленогорск</span><b>85</b></li>
+          <li><span>Волхов</span><b>115</b></li>
+          <li><span>Сосновый Бор</span><b>115</b></li>
+          <li><span>Приозерск</span><b>125</b></li>
+          <li><span>Кириши</span><b>125</b></li>
+          <li><span>Выборг</span><b>150</b></li>
+          <li><span>Луга</span><b>150</b></li>
+          <li><span>Кингисепп</span><b>150</b></li>
+        </ul>
+      </section>
+    </div>
+    <p class="zone__far">Дальше 150&nbsp;км, в&nbsp;Тихвин, Лодейное Поле, Подпорожье, Бокситогорск, Светогорск, возим на&nbsp;следующий день. Цену рейса диспетчер назовёт по&nbsp;адресу.</p>
+  </div>
+</section>
+
+<!-- Оплата -->
+<section class="sec pay" id="oplata" aria-labelledby="pay-title">
+  <div class="wrap">
+    <h2 id="pay-title" class="h2">Оплата и&nbsp;документы</h2>
+    <dl class="pay__list">
+      <div class="pay__item"><dt>Наличными</dt><dd>водителю после разгрузки, по&nbsp;накладной.</dd></div>
+      <div class="pay__item"><dt>Переводом</dt><dd>по&nbsp;QR через СБП, водитель покажет код. Чек придёт на&nbsp;телефон.</dd></div>
+      <div class="pay__item"><dt>По счёту с&nbsp;НДС 22%</dt><dd>для ИП и&nbsp;ООО. Счёт пришлём в&nbsp;мессенджер за&nbsp;15&nbsp;минут, машина выходит после оплаты или по&nbsp;гарантийному письму.</dd></div>
+      <div class="pay__item"><dt>Документы</dt><dd>УПД и&nbsp;транспортная накладная едут вместе с&nbsp;грузом. Сканы в&nbsp;тот&nbsp;же день.</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- Заявка -->
+<section class="sec order" id="zayavka" aria-labelledby="order-title">
+  <div class="wrap order__grid">
+    <div>
+      <h2 id="order-title" class="h2">Оставьте номер, перезвоним за&nbsp;10&nbsp;минут</h2>
+      <p class="lead">Быстрее всего позвонить: <a class="order__tel js-contact" data-kind="call" href="tel:+78120004747">+7 812 000-47-47</a></p>
+    </div>
+
+    <form class="form" id="form" novalidate>
+      <div class="field">
+        <label for="f-phone">Телефон</label>
+        <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+7 900 000-00-00" required aria-describedby="f-phone-err">
+        <p class="field__err" id="f-phone-err" hidden>Нужен номер из 11 цифр, например +7 921 123-45-67</p>
+      </div>
+      <div class="field">
+        <label for="f-to">Куда везти</label>
+        <input id="f-to" name="to" type="text" autocomplete="address-level2" placeholder="Посёлок или адрес объекта" required aria-describedby="f-to-err">
+        <p class="field__err" id="f-to-err" hidden>Напишите хотя бы населённый пункт</p>
+      </div>
+      <div class="field">
+        <label for="f-what">Что везти <span class="field__opt">можно не заполнять</span></label>
+        <textarea id="f-what" name="what" rows="3" placeholder="Например: 4 паллеты газобетона, разгрузка краном"></textarea>
+      </div>
+      <fieldset class="field">
+        <legend>Когда</legend>
+        <div class="seg seg--3">
+          <label class="seg__opt"><input type="radio" name="when" value="today" checked><span>Сегодня</span></label>
+          <label class="seg__opt"><input type="radio" name="when" value="tomorrow"><span>Завтра</span></label>
+          <label class="seg__opt"><input type="radio" name="when" value="later"><span>Позже</span></label>
+        </div>
+      </fieldset>
+      <button class="btn btn--main form__btn" type="submit">Жду звонка</button>
+      <p class="form__fine">Отправляя номер, вы соглашаетесь, что мы позвоним по&nbsp;этой заявке. Рассылок не&nbsp;делаем.</p>
+    </form>
+
+    <div class="done" id="done" hidden tabindex="-1">
+      <p class="done__title">Заявка принята</p>
+      <p>Это демо, заявка никуда не&nbsp;ушла. На&nbsp;настоящем сайте диспетчер перезвонил бы на&nbsp;<b id="done-phone"></b> в&nbsp;течение 10&nbsp;минут.</p>
+      <button class="btn btn--line" type="button" id="again">Изменить заявку</button>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__in">
+    <p class="logo logo--sm" aria-hidden="true"><span class="logo__word">Борт</span><span class="logo__code">47</span></p>
+    <p>База во Всеволожске, выезд на&nbsp;Дорогу жизни. Диспетчер каждый день с&nbsp;7:30 до&nbsp;20:00, кроме 1&nbsp;и&nbsp;2&nbsp;января.</p>
+    <p class="foot__kraft">Концепт-сайт студии KRAFT. Компания вымышленная, номер и&nbsp;мессенджеры не&nbsp;работают.</p>
+  </div>
+</footer>
+
+<nav class="dock" aria-label="Быстрая связь">
+  <a class="dock__call js-contact" data-kind="call" href="tel:+78120004747">Позвонить</a>
+  <a class="dock__msg js-contact" data-kind="tg" href="#zayavka">Telegram</a>
+  <a class="dock__msg js-contact" data-kind="wa" href="#zayavka">WhatsApp</a>
+</nav>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="main.js"></script>
+</body>
+</html>
