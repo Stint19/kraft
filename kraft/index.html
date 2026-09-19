@@ -4,16 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>KRAFT: лендинги и сайты под рекламу</title>
-<meta name="description" content="Лендинги от 49 900 ₽, сайты, Telegram-боты. Делаю страницы, которые с первого экрана отвечают на вопрос «почему вы». Без менеджеров, цена и срок в договоре. Бесплатный разбор вашего сайта.">
+<meta name="description" content="Лендинги от 49 900 ₽ и от 5 рабочих дней, сайты, Telegram-боты. Делаю страницы, которые с первого экрана отвечают на вопрос «почему вы». Без менеджеров, цена и срок в договоре. Бесплатный разбор вашего сайта.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="KRAFT: сайт, который отвечает на вопрос «почему вы»">
 <meta property="og:description" content="Лендинги от 49 900 ₽, сайты, Telegram-боты. Общаетесь с тем, кто делает. Бесплатный разбор сайта в Telegram.">
 <meta property="og:locale" content="ru_RU">
-<meta property="og:image" content="img/og.png">
+<meta property="og:image" content="https://stint19.github.io/kraft/kraft/img/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#F5F6F8">
+<meta name="theme-color" content="#F2F3F6">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231C2230'/%3E%3Cpath d='M10 7h3.6v7.4L20 7h4.4l-6.9 7.5L24.8 25h-4.5l-5.4-7.7-1.3 1.4V25H10z' fill='%23fff'/%3E%3Cpath d='M6 16.5h20' stroke='%233D63F0' stroke-width='2.4'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,14 +24,14 @@
 <a class="skip" href="#main">К содержанию</a>
 
 <header class="top">
-  <div class="wrap top__in">
+  <div class="container top__in">
     <a class="logo" href="./" aria-label="KRAFT, на главную">KRAFT</a>
     <nav class="nav" aria-label="Разделы">
+      <a href="#concepts">Работы</a>
       <a href="#price">Цены</a>
       <a href="#process">Как работаю</a>
       <a href="#audit">Разбор</a>
       <a href="#partners">Директологам</a>
-      <a href="#concepts">Концепты</a>
     </nav>
     <a class="btn btn--small" href="https://t.me/kraft_lp" target="_blank" rel="noopener">Написать в Telegram</a>
   </div>
@@ -39,184 +39,268 @@
 
 <main id="main">
 
-  <section class="hero wrap" aria-labelledby="hero-title">
-    <h1 id="hero-title" class="hero__title">Сайт, который отвечает на&nbsp;вопрос «почему вы»</h1>
-
-    <div class="hero__grid">
+  <!-- Hero -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="container grid">
       <div class="hero__text">
-        <p class="lede">Если вы платите за рекламу, а страница не конвертит, вы платите дважды: за клики и за то, что они уходят.</p>
-        <p>Работает не страница, а ответ на вопрос «почему вы». Я вытаскиваю его из вас разговором, минут за сорок, и ставлю на первый экран. Без менеджеров: вы говорите с тем, кто делает.</p>
+        <p class="hero__was"><span>Комплексные решения для вашего бизнеса</span><span class="sr"> (так писать не будем)</span></p>
+        <h1 id="hero-title" class="hero__title">Сайт, который отвечает на&nbsp;вопрос «почему вы»</h1>
+        <p class="hero__lede">Лендинги и сайты под рекламу. Сильное про ваш бизнес лежит у вас в голове: я достаю его разговором и ставлю на первый экран. Без менеджеров, вы говорите с тем, кто делает.</p>
         <div class="actions">
           <a class="btn" href="#audit">Прислать сайт на разбор</a>
-          <a class="link" href="https://t.me/kraft_lp" target="_blank" rel="noopener">Написать в Telegram</a>
+          <a class="btn btn--ghost hero__tg" href="https://t.me/kraft_lp" target="_blank" rel="noopener">Написать в Telegram</a>
         </div>
       </div>
 
-      <figure class="proof">
-        <div class="proof__screen" aria-hidden="true">
-          <div class="proof__bar"><span></span><span></span><span></span></div>
-          <p class="proof__was"><span>Комплексные решения для вашего бизнеса</span></p>
-          <p class="proof__now">Привезём сегодня. По всей области, своими машинами. Минимальный заказ: одна паллета.</p>
-          <div class="proof__btn">Рассчитать доставку</div>
+      <figure class="hero__devices">
+        <div class="devices devices--hero">
+          <div class="laptop">
+            <div class="laptop__screen">
+              <img src="img/stroy-desktop.jpg" srcset="img/stroy-desktop-720.jpg 720w, img/stroy-desktop.jpg 1440w" sizes="(max-width: 900px) 92vw, 640px" width="1440" height="900" alt="Первый экран концепта «Борт 47»: «Закажите до 12:00, привезём сегодня»">
+            </div>
+            <div class="laptop__base" aria-hidden="true"></div>
+          </div>
+          <div class="phone">
+            <div class="phone__screen">
+              <img src="img/clinic-mobile.jpg" width="390" height="844" alt="Мобильная версия концепта клиники «Мера»">
+            </div>
+          </div>
         </div>
-        <figcaption>
-          <span class="sr">Было на первом экране: «Комплексные решения для вашего бизнеса». Стало: «Привезём сегодня. По всей области, своими машинами. Минимальный заказ: одна паллета».</span>
-          Сайт компании, которая возит стройматериалы. Доставка день в день, свой автопарк, минималка в паллету: всё выяснилось за один звонок собственнику. На сайте не было ни слова.
-        </figcaption>
+        <figcaption>Концепты «Борт 47» и «Мера». Компании вымышленные.</figcaption>
       </figure>
     </div>
   </section>
 
-  <section id="price" class="sec wrap" aria-labelledby="price-title">
-    <h2 id="price-title" class="sec__title">Что делаю и сколько стоит</h2>
-    <div class="sec__body">
-      <dl class="price">
-        <div class="price__row price__row--main">
-          <dt>Лендинг</dt>
-          <dd class="price__sum">от 49&nbsp;900&nbsp;₽<span>от 5 рабочих дней</span></dd>
-          <dd class="price__what">Проработка оффера, структура, тексты, дизайн, адаптив под мобильные, форма заявок и Яндекс.Метрика с настроенными целями. Плюс круг правок.</dd>
-        </div>
-        <div class="price__row">
-          <dt>Многостраничный сайт</dt>
-          <dd class="price__sum price__sum--ask">по задаче, назову после разговора</dd>
-        </div>
-        <div class="price__row">
-          <dt>Telegram-бот</dt>
-          <dd class="price__sum price__sum--ask">по задаче, назову после разговора</dd>
-        </div>
-        <div class="price__row">
-          <dt>Приложение</dt>
-          <dd class="price__sum price__sum--ask">по задаче, назову после разговора</dd>
-        </div>
-      </dl>
-      <p class="price__note">Цену и срок фиксирую в договоре.</p>
+  <!-- Facts -->
+  <section class="facts" aria-label="Коротко о работе">
+    <div class="container grid">
+      <div class="fact"><p class="fact__num">40 минут</p><p>разговора, из которого получается первый экран</p></div>
+      <div class="fact"><p class="fact__num">1 человек</p><p>от первого созвона до запуска, без менеджеров</p></div>
+      <div class="fact"><p class="fact__num">от 5 дней</p><p>на лендинг. Срок фиксируется в договоре</p></div>
+      <div class="fact"><p class="fact__num">1 поле</p><p>нужно на первом шаге формы: способ связаться</p></div>
     </div>
   </section>
 
-  <section id="process" class="sec wrap" aria-labelledby="process-title">
-    <h2 id="process-title" class="sec__title">Как проходит работа</h2>
-    <div class="sec__body">
+  <!-- Concepts -->
+  <section id="concepts" class="section section--paper" aria-labelledby="concepts-title">
+    <div class="container grid">
+      <header class="section__head">
+        <h2 id="concepts-title" class="h2">Концепты: так мы думаем о&nbsp;чужом бизнесе</h2>
+        <p class="section__intro">Кейсов с клиентами пока нет, выдумывать их я не буду. Компании вымышленные, вопросы настоящие. Зачёркнуто то, что обычно пишут на таких сайтах.</p>
+      </header>
+
+      <div class="concepts">
+      <a class="concept" href="../stroy/">
+        <div class="concept__visual concept__visual--stroy">
+          <div class="devices">
+            <div class="laptop">
+              <div class="laptop__screen"><img src="img/stroy-desktop-720.jpg" width="720" height="450" loading="lazy" alt=""></div>
+              <div class="laptop__base" aria-hidden="true"></div>
+            </div>
+            <div class="phone"><div class="phone__screen"><img src="img/stroy-mobile.jpg" width="390" height="844" loading="lazy" alt=""></div></div>
+          </div>
+        </div>
+        <div class="concept__body">
+          <p class="concept__niche">«Борт 47», стройматериалы по Ленобласти</p>
+          <p class="concept__was"><s>Качественные стройматериалы по доступным ценам</s></p>
+          <p class="concept__q">Как показать прорабу, что паллета приедет сегодня, а не «в ближайшее время»?</p>
+          <span class="concept__open">Открыть концепт</span>
+        </div>
+      </a>
+
+      <a class="concept" href="../clinic/">
+        <div class="concept__visual concept__visual--clinic">
+          <div class="devices">
+            <div class="laptop">
+              <div class="laptop__screen"><img src="img/clinic-desktop-720.jpg" width="720" height="450" loading="lazy" alt=""></div>
+              <div class="laptop__base" aria-hidden="true"></div>
+            </div>
+            <div class="phone"><div class="phone__screen"><img src="img/clinic-mobile.jpg" width="390" height="844" loading="lazy" alt=""></div></div>
+          </div>
+        </div>
+        <div class="concept__body">
+          <p class="concept__niche">«Мера», клиника дерматологии и косметологии</p>
+          <p class="concept__was"><s>Красота и здоровье вашей кожи</s></p>
+          <p class="concept__q">Как назвать цену честно, если окончательно её определяет врач после осмотра?</p>
+          <span class="concept__open">Открыть концепт</span>
+        </div>
+      </a>
+
+      <a class="concept" href="../medtech/">
+        <div class="concept__visual concept__visual--medtech">
+          <div class="devices">
+            <div class="laptop">
+              <div class="laptop__screen"><img src="img/medtech-desktop-720.jpg" width="720" height="450" loading="lazy" alt=""></div>
+              <div class="laptop__base" aria-hidden="true"></div>
+            </div>
+            <div class="phone"><div class="phone__screen"><img src="img/medtech-mobile.jpg" width="390" height="844" loading="lazy" alt=""></div></div>
+          </div>
+        </div>
+        <div class="concept__body">
+          <p class="concept__niche">Поставщик медоборудования, B2B-каталог</p>
+          <p class="concept__was"><s>Широкий ассортимент медицинского оборудования</s></p>
+          <p class="concept__q">Почему закупщик клиники напишет вам, а не тому, кто дешевле на три процента?</p>
+          <span class="concept__open">Открыть концепт</span>
+        </div>
+      </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Price -->
+  <section id="price" class="section section--dark" aria-labelledby="price-title">
+    <div class="container grid">
+      <header class="section__head">
+        <h2 id="price-title" class="h2">Что делаю и сколько стоит</h2>
+        <p class="section__intro">Цену и срок фиксирую в договоре. Выше медианы, потому что не шаблон. Ниже студий, потому что не держу менеджеров между вами и работой.</p>
+      </header>
+
+      <article class="offer">
+        <div class="offer__top">
+          <h3 class="offer__name">Лендинг</h3>
+          <p class="offer__price">от 49&nbsp;900&nbsp;₽</p>
+          <p class="offer__term">от 5 рабочих дней</p>
+        </div>
+        <ul class="offer__list">
+          <li>Проработка оффера</li>
+          <li>Структура и тексты</li>
+          <li>Дизайн</li>
+          <li>Адаптив под мобильные</li>
+          <li>Форма заявок</li>
+          <li>Яндекс.Метрика с целями</li>
+          <li>Круг правок</li>
+        </ul>
+        <a class="btn btn--light" href="https://t.me/kraft_lp" target="_blank" rel="noopener">Обсудить лендинг</a>
+      </article>
+
+      <div class="others">
+        <article class="other">
+          <h3>Многостраничный сайт</h3>
+          <p>Страницы услуг, каталог, посадочные под кампании.</p>
+          <p class="other__price">Цена по задаче, назову после разговора</p>
+        </article>
+        <article class="other">
+          <h3>Telegram-бот</h3>
+          <p>Заявки, запись, ответы на вопросы, выгрузка в CRM.</p>
+          <p class="other__price">Цена по задаче, назову после разговора</p>
+        </article>
+        <article class="other">
+          <h3>Приложение</h3>
+          <p>Мини-приложение в Telegram или веб-приложение.</p>
+          <p class="other__price">Цена по задаче, назову после разговора</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section id="process" class="section" aria-labelledby="process-title">
+    <div class="container grid">
+      <header class="section__head">
+        <h2 id="process-title" class="h2">Как проходит работа</h2>
+        <p class="section__intro">Я беру мало проектов одновременно, поэтому ваш не лежит в очереди.</p>
+      </header>
       <ol class="steps">
-        <li><h3>Разговор о задаче</h3><p>Что продаёте, откуда трафик, сколько стоят клик и заявка. После него называю цену и срок.</p></li>
-        <li><h3>Договор</h3><p>Цена, срок, состав работ и круг правок. Ничего «примерно».</p></li>
-        <li><h3>Интервью «почему вы»</h3><p>Около сорока минут. Ищем факты, которые вам кажутся очевидными, поэтому их нет на сайте.</p></li>
-        <li><h3>Структура и тексты</h3><p>Сначала смысл: что на каком экране и какими словами. Дизайн без текстов не рисую.</p></li>
-        <li><h3>Дизайн и вёрстка</h3><p>Сначала телефон. Форма с минимумом полей, Метрика с целями на заявку, звонок и мессенджер.</p></li>
-        <li><h3>Правки и запуск</h3><p>Круг правок, домен, проверка заявок и целей. Сайт, домен и доступы остаются у вас.</p></li>
+        <li class="step"><h3>Разговор о задаче</h3><p>Что продаёте, откуда трафик, сколько стоят клик и заявка. После него называю цену и срок.</p></li>
+        <li class="step"><h3>Договор</h3><p>Цена, срок, состав работ и круг правок. Ничего «примерно».</p></li>
+        <li class="step"><h3>Интервью «почему вы»</h3><p>Около сорока минут. Ищем факты, которые вам кажутся очевидными, поэтому их нет на сайте.</p></li>
+        <li class="step"><h3>Структура и тексты</h3><p>Сначала смысл: что на каком экране и какими словами. Дизайн без текстов не рисую.</p></li>
+        <li class="step"><h3>Дизайн и вёрстка</h3><p>Сначала телефон. Форма с минимумом полей, Метрика с целями на заявку, звонок и мессенджер.</p></li>
+        <li class="step"><h3>Правки и запуск</h3><p>Круг правок, домен, проверка заявок и целей. Сайт, домен и доступы остаются у вас.</p></li>
       </ol>
-      <p class="aside">Я беру мало проектов одновременно, поэтому ваш не лежит в очереди.</p>
     </div>
   </section>
 
-  <section id="audit" class="sec sec--audit wrap" aria-labelledby="audit-title">
-    <h2 id="audit-title" class="sec__title">Бесплатный разбор сайта</h2>
-    <div class="sec__body">
-      <p>Есть сайт, но заявок мало? Пришлите ссылку. Посмотрю его глазами человека, который кликнул по объявлению с телефона, и отвечу текстом, что поправить первым. Заказывать у меня после этого не обязательно.</p>
+  <!-- Audit -->
+  <section id="audit" class="section section--paper" aria-labelledby="audit-title">
+    <div class="container grid">
+      <div class="audit__text">
+        <h2 id="audit-title" class="h2">Бесплатный разбор сайта</h2>
+        <p class="section__intro">Есть сайт, но заявок мало? Пришлите ссылку. Посмотрю его глазами человека, который кликнул по объявлению с телефона, и отвечу текстом, что поправить первым. <strong class="audit__small">Заказывать у меня после этого не обязательно.</strong></p>
+      </div>
 
-      <form class="form" id="audit-form" novalidate>
-        <div class="field">
-          <label for="f-site">Ссылка на сайт</label>
-          <input id="f-site" name="site" type="text" inputmode="url" autocomplete="url" placeholder="example.ru" required aria-describedby="f-site-err">
-          <p class="field__err" id="f-site-err" aria-live="polite"></p>
-        </div>
-        <div class="field">
-          <label for="f-contact">Куда ответить</label>
-          <input id="f-contact" name="contact" type="text" autocomplete="tel" placeholder="@ник в Telegram или телефон" required aria-describedby="f-contact-err">
-          <p class="field__err" id="f-contact-err" aria-live="polite"></p>
-        </div>
-        <button class="btn" type="submit">Отправить через Telegram</button>
-        <p class="form__note">Сервера у сайта нет, поэтому заявка уходит через Telegram: скопирую текст и открою чат @kraft_lp, останется вставить и отправить.</p>
-      </form>
+      <div class="audit__card">
+        <form class="form" id="audit-form" novalidate>
+          <div class="field">
+            <label for="f-site">Ссылка на сайт</label>
+            <input id="f-site" name="site" type="text" inputmode="url" autocomplete="url" placeholder="example.ru" required aria-describedby="f-site-err">
+            <p class="field__err" id="f-site-err" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="f-contact">Куда ответить</label>
+            <input id="f-contact" name="contact" type="text" autocomplete="tel" placeholder="@ник в Telegram или телефон" required aria-describedby="f-contact-err">
+            <p class="field__err" id="f-contact-err" aria-live="polite"></p>
+          </div>
+          <button class="btn" type="submit">Отправить через Telegram</button>
+          <p class="form__note">Сервера у сайта нет: скопирую текст заявки и открою чат @kraft_lp, останется отправить.</p>
+        </form>
 
-      <div class="done" id="audit-done" tabindex="-1" hidden>
-        <p class="done__title">Текст заявки скопирован</p>
-        <p>В новой вкладке открылся чат <a href="https://t.me/kraft_lp" target="_blank" rel="noopener">@kraft_lp</a>. Вставьте текст и отправьте, и разбор начнётся. Если вкладка не открылась, нажмите на ссылку.</p>
-        <pre class="done__text" id="audit-text"></pre>
-        <button class="link" type="button" id="audit-again">Отправить другой сайт</button>
+        <div class="done" id="audit-done" tabindex="-1" hidden>
+          <p class="done__title">Текст заявки скопирован</p>
+          <p>В новой вкладке открылся чат <a href="https://t.me/kraft_lp" target="_blank" rel="noopener">@kraft_lp</a>. Вставьте текст и отправьте, и разбор начнётся. Если вкладка не открылась, нажмите на ссылку.</p>
+          <pre class="done__text" id="audit-text"></pre>
+          <button class="link" type="button" id="audit-again">Отправить другой сайт</button>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="partners" class="band" aria-labelledby="partners-title">
-    <div class="wrap">
-      <h2 id="partners-title" class="band__title">Директологам и таргетологам</h2>
-      <p class="band__big">Рекламу я не настраиваю, ваших клиентов не заберу.</p>
-      <div class="deal">
-        <p class="deal__intro">Вы настроили рекламу, а клиент недоволен заявками, потому что страница не продаёт. Эту часть могу закрыть я.</p>
-        <div class="deal__item">
-          <h3>Под вашим именем</h3>
-          <p>Берёте у меня по оптовой цене, ставите свою наценку и остаётесь единственным лицом для клиента.</p>
-        </div>
-        <div class="deal__item">
-          <h3>Напрямую</h3>
-          <p>Знакомите меня с клиентом, дальше я работаю с ним сам. Вам 15% от суммы договора.</p>
-        </div>
-      </div>
-      <a class="link" href="https://t.me/kraft_lp" target="_blank" rel="noopener">Обсудить условия в Telegram</a>
+  <!-- Partners -->
+  <section id="partners" class="section section--tint" aria-labelledby="partners-title">
+    <div class="container grid">
+      <header class="section__head section__head--wide">
+        <p class="partners__for" id="partners-title">Директологам и таргетологам</p>
+        <h2 class="h2 h2--xl">Рекламу я не настраиваю, ваших клиентов не заберу.</h2>
+      </header>
+      <p class="partners__intro">Вы настроили рекламу, а клиент недоволен заявками, потому что страница не продаёт. Эту часть могу закрыть я.</p>
+      <article class="deal">
+        <h3>Под вашим именем</h3>
+        <p class="deal__big">опт</p>
+        <p>Берёте у меня по оптовой цене, ставите свою наценку и остаётесь единственным лицом для клиента.</p>
+      </article>
+      <article class="deal">
+        <h3>Напрямую</h3>
+        <p class="deal__big">15%</p>
+        <p>Знакомите меня с клиентом, дальше я работаю с ним сам. Вам 15% от суммы договора.</p>
+      </article>
+      <div class="partners__cta"><a class="btn btn--ghost" href="https://t.me/kraft_lp" target="_blank" rel="noopener">Обсудить условия в Telegram</a></div>
     </div>
   </section>
 
-  <section id="concepts" class="sec sec--flush sec--wide wrap" aria-labelledby="concepts-title">
-    <h2 id="concepts-title" class="sec__title">Концепты</h2>
-    <div class="sec__body">
-      <p>Кейсов с клиентами пока нет, и выдумывать их я не буду. Вместо них концепты: так мы думаем о чужом бизнесе. Компании вымышленные, вопросы настоящие. Зачёркнуто то, что обычно пишут на таких сайтах.</p>
-      <ul class="concepts">
-        <li>
-          <a class="concept" href="../medtech/">
-            <span class="concept__niche">Поставщик медоборудования, B2B-каталог</span>
-            <span class="concept__was"><s>Широкий ассортимент медицинского оборудования</s><span class="sr"> (так обычно пишут)</span></span>
-            <span class="concept__q">Почему закупщик клиники напишет вам, а не тому, кто дешевле на три процента?</span>
-            <span class="concept__open">Открыть концепт</span>
-          </a>
-        </li>
-        <li>
-          <a class="concept" href="../stroy/">
-            <span class="concept__niche">«Борт 47», стройматериалы по Ленобласти день в день</span>
-            <span class="concept__was"><s>Качественные стройматериалы по доступным ценам</s><span class="sr"> (так обычно пишут)</span></span>
-            <span class="concept__q">Как показать прорабу, что паллета приедет сегодня, а не «в ближайшее время»?</span>
-            <span class="concept__open">Открыть концепт</span>
-          </a>
-        </li>
-        <li>
-          <a class="concept" href="../clinic/">
-            <span class="concept__niche">«Мера», клиника дерматологии и косметологии</span>
-            <span class="concept__was"><s>Красота и здоровье вашей кожи</s><span class="sr"> (так обычно пишут)</span></span>
-            <span class="concept__q">Как назвать цену честно, если окончательно её определяет врач после осмотра?</span>
-            <span class="concept__open">Открыть концепт</span>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="faq" class="sec wrap" aria-labelledby="faq-title">
-    <h2 id="faq-title" class="sec__title">7 вопросов подрядчику</h2>
-    <div class="sec__body">
-      <p>Задайте их любому, к кому пойдёте, в том числе мне.</p>
+  <!-- FAQ -->
+  <section id="faq" class="section" aria-labelledby="faq-title">
+    <div class="container grid">
+      <header class="faq__head">
+        <h2 id="faq-title" class="h2">7 вопросов подрядчику</h2>
+        <p class="section__intro">Задайте их любому, к кому пойдёте, в том числе мне.</p>
+      </header>
       <div class="faq">
         <details><summary>Что входит в цену, а что считается отдельно?</summary><p>Пишу списком в договоре. Всё, чего там нет, до начала работы обсуждаем отдельно, а не приходит сюрпризом в финальном счёте.</p></details>
         <details><summary>Сколько кругов правок входит и почём следующий?</summary><p>Один круг входит в цену. Стоимость следующих указана в договоре заранее.</p></details>
         <details><summary>Кто пишет тексты?</summary><p>Я, после разговора с вами. Вам не придётся на третий день выяснять, что тексты с вас.</p></details>
         <details><summary>Кому принадлежат доступы после сдачи?</summary><p>Вам. Домен, хостинг и Метрика оформляются на вас, исходники я отдаю.</p></details>
         <details><summary>Что будет, если сроки сорваны?</summary><p>Срок записан в договоре вместе с ответственностью за просрочку. «Мы не срываем» ответом не считается.</p></details>
-        <details><summary>Покажите две работы в моей нише.</summary><p>Студия молодая, и выдумывать кейсы я не буду. Покажу концепты ниже, а для вашего бизнеса могу набросать первый экран ещё до договора.</p></details>
+        <details><summary>Покажите две работы в моей нише.</summary><p>Студия молодая, и выдумывать кейсы я не буду. Покажу концепты выше на этой странице, а для вашего бизнеса могу набросать первый экран ещё до договора.</p></details>
         <details><summary>Кто со мной будет общаться, менеджер или тот, кто делает?</summary><p>Тот, кто делает. Менеджеров у меня нет.</p></details>
       </div>
     </div>
   </section>
 
+  <!-- Contact -->
   <section id="contact" class="contact" aria-labelledby="contact-title">
-    <div class="wrap contact__in">
-      <h2 id="contact-title" class="contact__title">Расскажите о задаче в Telegram</h2>
-      <a class="contact__tg" href="https://t.me/kraft_lp" target="_blank" rel="noopener">@kraft_lp</a>
-      <p>Отвечает Андрей, тот же человек, который будет делать ваш сайт.</p>
+    <div class="container grid">
+      <div class="contact__in">
+        <h2 id="contact-title" class="contact__title">Расскажите о задаче в Telegram</h2>
+        <a class="contact__tg" href="https://t.me/kraft_lp" target="_blank" rel="noopener">@kraft_lp</a>
+        <p>Отвечает Андрей, тот же человек, который будет делать ваш сайт.</p>
+      </div>
     </div>
   </section>
 
 </main>
 
 <footer class="foot">
-  <div class="wrap foot__in">
+  <div class="container foot__in">
     <p>KRAFT. Лендинги, сайты, Telegram-боты и приложения.</p>
     <p><a href="https://t.me/kraft_lp" target="_blank" rel="noopener">t.me/kraft_lp</a></p>
   </div>
