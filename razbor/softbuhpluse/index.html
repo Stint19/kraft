@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Разбор сайта softbuhpluse.by</title>
+<meta name="description" content="Разбор первого экрана и пути к заявке на сайте бухгалтерской компании СофтБухПлюс: что мешает оставить заявку и что поправить первым.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Разбор сайта softbuhpluse.by">
+<meta property="og:description" content="Что мешает заявке и что поправить первым. Замеры сделаны 20 сентября 2026 года.">
+<meta property="og:type" content="article">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%231f3fd8'/><text x='50' y='70' font-size='58' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'>K</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#101828; --muted:#5b6478; --line:#e3e6ee; --bg:#f4f6fb; --card:#fff;
+    --accent:#1f3fd8; --warn:#c2410c; --ok:#0f7a4a;
+    --wrap:1120px; --gap:24px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:Geologica,system-ui,-apple-system,"Segoe UI",sans-serif;font-weight:400;line-height:1.55;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:var(--wrap);margin:0 auto;padding:0 20px}
+  header.top{background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+  .top .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:16px}
+  .logo{font-weight:700;letter-spacing:.14em;font-size:15px}
+  .top a.cta{font-size:14px;font-weight:500;color:#fff;background:var(--accent);padding:9px 16px;border-radius:999px;text-decoration:none;white-space:nowrap}
+
+  .hero{padding:56px 0 36px}
+  .eyebrow{color:var(--muted);font-size:15px;margin:0 0 14px}
+  h1{font-size:clamp(30px,5.4vw,52px);line-height:1.08;font-weight:600;letter-spacing:-.02em;margin:0 0 18px;max-width:18ch}
+  .lead{font-size:clamp(17px,2.2vw,20px);color:#2b3446;max-width:62ch;margin:0}
+  .meta{margin-top:26px;display:flex;flex-wrap:wrap;gap:10px}
+  .chip{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:14px;color:var(--muted)}
+
+  .nums{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--gap);margin:40px 0 8px}
+  .num{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px}
+  .num b{display:block;font-size:clamp(26px,3.6vw,38px);font-weight:600;letter-spacing:-.02em;line-height:1.1}
+  .num span{display:block;color:var(--muted);font-size:14px;margin-top:8px}
+
+  section{padding:44px 0}
+  h2{font-size:clamp(22px,3.2vw,30px);font-weight:600;letter-spacing:-.01em;margin:0 0 8px}
+  .sub{color:var(--muted);margin:0 0 26px;max-width:60ch}
+
+  .items{display:grid;gap:var(--gap)}
+  .item{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px;display:grid;grid-template-columns:44px 1fr;gap:18px;align-items:start}
+  .item .n{width:44px;height:44px;border-radius:12px;background:#eef1fe;color:var(--accent);font-weight:600;display:grid;place-items:center;font-size:18px}
+  .item h3{margin:2px 0 8px;font-size:19px;font-weight:600}
+  .item p{margin:0 0 10px;color:#2b3446}
+  .item p:last-child{margin-bottom:0}
+  .fix{color:var(--ok);font-weight:500}
+  code{background:#f1f3f9;border:1px solid var(--line);border-radius:6px;padding:2px 6px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.92em;word-break:break-all}
+
+  .shots{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap);align-items:start}
+  figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+  figure img{display:block;width:100%;height:auto}
+  figcaption{padding:14px 18px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+
+  .plan{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:8px 24px}
+  .plan div{display:flex;gap:16px;padding:16px 0;border-bottom:1px solid var(--line)}
+  .plan div:last-child{border-bottom:0}
+  .plan i{font-style:normal;color:var(--accent);font-weight:600;min-width:26px}
+
+  .final{background:#101828;color:#fff;border-radius:22px;padding:clamp(28px,4vw,44px);margin:12px 0 56px}
+  .final h2{color:#fff;margin-bottom:12px}
+  .final p{color:#c7cddb;max-width:58ch;margin:0 0 22px}
+  .final a{display:inline-block;background:#fff;color:#101828;text-decoration:none;font-weight:600;padding:14px 24px;border-radius:999px}
+  footer{color:var(--muted);font-size:14px;padding:0 0 48px}
+
+  @media (max-width:900px){
+    .nums{grid-template-columns:1fr 1fr}
+    .shots{grid-template-columns:1fr}
+  }
+  @media (max-width:560px){
+    .hero{padding:36px 0 24px}
+    .item{grid-template-columns:1fr;gap:12px;padding:20px}
+    .item .n{width:38px;height:38px}
+    section{padding:32px 0}
+  }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <span class="logo">KRAFT</span>
+    <a class="cta" href="https://t.me/kraft_lp">Написать в Telegram</a>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="hero">
+    <p class="eyebrow">Разбор сайта · softbuhpluse.by · 20 сентября 2026</p>
+    <h1>Что мешает заявке на вашем сайте</h1>
+    <p class="lead">Открыл сайт так, как его открывает ваш клиент: с телефона, по рекламе, на обычном мобильном интернете. Всё, что ниже, замерено на живом сайте, а не на глаз.</p>
+    <div class="meta">
+      <span class="chip">Tilda, 51 блок</span>
+      <span class="chip">Метрика, Google Analytics, пиксель VK стоят</span>
+      <span class="chip">Замеры: Chrome, профиль Slow 4G</span>
+    </div>
+  </div>
+
+  <div class="nums">
+    <div class="num"><b>4,8 с</b><span>до первого контента с телефона на 4G</span></div>
+    <div class="num"><b>13,9 с</b><span>полная загрузка страницы на компьютере</span></div>
+    <div class="num"><b>164</b><span>запроса к внешним скриптам и файлам</span></div>
+    <div class="num"><b>13 000 px</b><span>высота страницы, это 15 экранов телефона</span></div>
+  </div>
+
+  <section>
+    <h2>Шесть вещей, которые стоят вам заявок</h2>
+    <p class="sub">По порядку: от того, что теряет больше всего людей, к мелочам, которые портят впечатление.</p>
+
+    <div class="items">
+      <div class="item">
+        <div class="n">1</div>
+        <div>
+          <h3>Человек уходит раньше, чем видит предложение</h3>
+          <p>С телефона на обычном 4G первый контент появляется через 4,8 секунды, а полностью страница собирается почти 14 секунд. Из рекламы столько не ждут: клик оплачен, а человека уже нет.</p>
+          <p class="fix">Что делаю: убираю лишние внешние скрипты и тяжёлые блоки с первого экрана, оставляю аналитику. Цель: первый экран быстрее двух секунд.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="n">2</div>
+        <div>
+          <h3>Самое сильное спрятано вниз</h3>
+          <p>На первом экране общая фраза про профессиональное обслуживание. А ниже по странице лежит то, ради чего к вам идут: возмещение 100% штрафов, страховой полис профессиональной ответственности, 300 компаний за 15 лет, специалисты с опытом от 10 лет.</p>
+          <p class="fix">Что делаю: выношу гарантию и цифры на первый экран, чтобы за две секунды было понятно, чем вы отличаетесь от соседнего объявления.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="n">3</div>
+        <div>
+          <h3>С телефона не позвонить в одно касание</h3>
+          <p>В шапке на телефоне только бургер: ни номера, ни мессенджера. Часть ссылок для звонка записана с пробелами и скобками, например <code>tel: +375 (29) 684-97-93</code>. Такие ссылки срабатывают не на всех телефонах.</p>
+          <p>Плюс на сайте два разных номера в разных блоках, и непонятно, какой основной.</p>
+          <p class="fix">Что делаю: один основной номер, кнопка звонка и мессенджеры закреплены на экране телефона, все ссылки привожу к рабочему виду.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="n">4</div>
+        <div>
+          <h3>Цены есть, но их не находят</h3>
+          <p>На сайте указаны суммы от 125 до 500 BYN, это сильно: конкуренты часто прячут цену совсем. Но она не видна с первого экрана, и рядом нет состава пакета. Человек не понимает, что входит, и уходит сравнивать.</p>
+          <p class="fix">Что делаю: короткий блок «сколько стоит и что входит» сразу под первым экраном, с понятными пакетами для ИП и для ООО.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="n">5</div>
+        <div>
+          <h3>Пятьдесят один блок на одной странице</h3>
+          <p>Услуги, акции, преимущества, команда, отзывы, клиенты, новости. К форме человек доходит уставшим, а внимание размазано ровным слоем по всей странице.</p>
+          <p class="fix">Что делаю: собираю страницу по одной логике: оффер, цены, гарантии, отзывы, заявка. Остальное переношу на отдельные страницы, они полезны для поиска, но мешают на главной.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="n">6</div>
+        <div>
+          <h3>Мелочь, по которой судят о компании</h3>
+          <p>В одной из форм поле называется «Орлов Александр Петрович»: пример из подписи попал в название поля. Это имя приходит вам в заявках и видно клиенту.</p>
+          <p class="fix">Что делаю: привожу поля в порядок, сокращаю первый шаг формы до имени и способа связи, остальное спрашиваете в разговоре.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Как это выглядит сейчас</h2>
+    <p class="sub">Скриншоты сделаны 20 сентября: слева компьютер, справа телефон 390 пикселей на медленном 4G.</p>
+    <div class="shots">
+      <figure>
+        <img src="img/desktop.jpg" alt="Первый экран сайта на компьютере" loading="lazy">
+        <figcaption>Компьютер: заголовок общий, гарантии и цифры остались ниже.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/mobile.jpg" alt="Первый экран сайта на телефоне" loading="lazy">
+        <figcaption>Телефон: заголовок занимает весь экран, номера и мессенджеров в шапке нет.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>Что стоит сделать первым</h2>
+    <p class="sub">Порядок именно такой: сверху то, что быстрее всего вернёт заявки.</p>
+    <div class="plan">
+      <div><i>1</i><span>Новый первый экран: гарантия возмещения штрафов, страховка, 300 компаний, понятное действие.</span></div>
+      <div><i>2</i><span>Скорость: чистка скриптов и тяжёлых блоков, первый экран быстрее двух секунд.</span></div>
+      <div><i>3</i><span>Связь: один номер, кнопка звонка и мессенджеры закреплены на телефоне.</span></div>
+      <div><i>4</i><span>Цены и пакеты сразу под первым экраном, с составом.</span></div>
+      <div><i>5</i><span>Короткая форма: имя и способ связи, остальное в разговоре.</span></div>
+      <div><i>6</i><span>Цели в Метрике на заявку, звонок и мессенджер, чтобы видеть, что именно приносит клиентов.</span></div>
+    </div>
+  </section>
+
+  <div class="final">
+    <h2>Могу показать, а не рассказывать</h2>
+    <p>За сутки бесплатно соберу макет нового первого экрана на ваших фактах: гарантия, страховка, цифры, цена. Посмотрите вживую с телефона и решите, нужно ли дальше.</p>
+    <a href="https://t.me/kraft_lp">Написать в Telegram</a>
+  </div>
+
+  <footer>
+    Разбор подготовил Андрей, студия KRAFT. Замеры сделаны 20 сентября 2026 года в Chrome: профиль сети Slow 4G, экран 390 пикселей. Скриншоты принадлежат владельцу сайта.
+  </footer>
+</div>
+</body>
+</html>
